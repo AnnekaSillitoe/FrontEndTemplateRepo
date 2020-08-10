@@ -1,0 +1,33 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2015,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "strict": ["error", "never"],
+    "semi": ["error", "always"],
+    "no-use-before-define": "error",
+    "camelcase": [
+      "error",
+      {
+        "ignoreDestructuring": true,
+        "ignoreImports": true
+      }
+    ],
+    "func-style": [
+      "error",
+      "declaration",
+      {
+        "allowArrowFunctions": true
+      }
+    ],
+    "comma-dangle": ["error", "always"]
+  },
+  "env": {
+    "browser": true
+  }
+}
