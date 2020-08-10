@@ -1,0 +1,9 @@
+{
+  "name": "FrontEndTemplateRepo",
+  "version": "1.0.0",
+  "description": "Template repo with setup of code coverage and testing as I like it",
+  "main": "index.js",
+  "repository": "git@github.com:AnnekaSillitoe/FrontEndTemplateRepo.git",
+  "author": "annekasillitoe <annekasillitoe@gmail.com>",
+  "license": "MIT"
+}
